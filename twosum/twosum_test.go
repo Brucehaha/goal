@@ -49,6 +49,9 @@ func TestTwoSum(t *testing.T) {
 	result := twoSum(a, 9)
 	fmt.Println(result)
 
+}
+func TestTwoSum3(t *testing.T) {
+
 	t3 := twoSum3{make(
 		map[int]int),
 		9,
