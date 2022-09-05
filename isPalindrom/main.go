@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math"
+	"strconv"
 	"unicode"
 )
 
@@ -62,4 +63,9 @@ func main() {
 		fmt.Printf("%T, %v \n", a, a)
 	}
 
+	bs := []byte(strconv.Itoa(31415926))
+	fmt.Println(bs)
+	numsDict := make(map[int]int)
+
+	fmt.Printf("%V", numsDict)
 }
